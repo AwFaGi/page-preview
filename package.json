@@ -1,0 +1,24 @@
+{
+  "name": "@awfagi/page-preview",
+  "version": "1.0.1",
+  "description": "Custom element for previewing an HTML page",
+  "type": "module",
+  "exports": "./src/page-preview.js",
+  "main": "./src/page-preview.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node scripts/serve.mjs 8000"
+  },
+  "keywords": [
+    "web-component",
+    "custom-element",
+    "shadow-dom",
+    "preview"
+  ],
+  "author": "AwFaGi",
+  "license": "MIT"
+}
